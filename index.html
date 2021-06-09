@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bulma/css/bulma.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+
+    <title>using Bulma</title>
+</head>
+<body>
+    
+    <section class="hero is-primary is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+              <form class="box">
+                <div class="field has-text-centered">
+                  <img src="./a.jpg" width="250">
+                </div>
+                <div class="field">
+                  <label for="correo" class="label">Email</label>
+                  <div class="control has-icons-left">
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+                    <input required type="email" name="correo" id="correo" class="input" placeholder="Correo">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="password" class="label">Password</label>
+                  <div class="control has-icons-left">
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-lock"></i>
+                    </span>
+                    <input required type="password" name="contraseña" id="password" class="input" placeholder="Contraseña">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="checkbox" class="checkbox">
+                    <input type="checkbox" id="checkbox" required>
+                        Remember me
+                  </label>
+                </div>
+                <div class="field">
+                  <button class="button is-dark is-fullwidth is-uppercase">Iniciar</button>
+                </div>
+                <div class="field">
+                  <div class="buttons is-centered is-uppercase">
+                    <a href="./index2.html" class="button is-primary is-outlined">página 2</a>
+                    <a href="./index3.html" class="button is-primary is-outlined">página 3</a>
+                    <a href="./index4.html" class="button is-primary is-outlined">página 4</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <script src="./app.js"></script>
+</body> 
+</html>
